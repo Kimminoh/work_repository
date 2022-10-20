@@ -1,0 +1,18 @@
+https://dingrr.com/blog/post/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84-%EC%98%88%EC%A0%9C-15%EC%A2%85
+
+
+C++ 2차원 배열 동적할당
+https://sangmin-kim.tistory.com/148
+
+https://dojang.io/mod/page/view.php?id=295
+
+
+C++ 함수에서 2차원 배열 리턴 만들기(배열포인터, 포인터 배열)
+https://plming.tistory.com/51
+
+
+희소행렬
+https://thesauro.tistory.com/entry/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EA%B3%B5%EB%B6%807-%ED%9D%AC%EC%86%8C-%ED%96%89%EB%A0%AC
+
+
+

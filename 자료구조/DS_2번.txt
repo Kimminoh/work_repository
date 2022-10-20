@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+#include <stack>//stack STL(표준 라이브러리) 사용
+using namespace std;
+
+
+int main(void) {
+	stack<char> S;
+	stack<char> op;
+	S.push('3');
+	S.push('+');
+	S.push('2');
+
+	cout << S.top() << endl;
+
+	//S.pop();
+	while (!S.empty()) {
+		if (S.top() == '+')
+			op.push(S.top());
+		cout << S.top() << endl;
+		S.pop();
+	}
+
+	cout << "연산자스택 출력결과" << endl;
+	while (!op.empty()) {
+		cout << op.top() << endl;
+		op.pop();
+	}
+}

@@ -1,0 +1,44 @@
+3-10번 메모장
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int thing = 974;//물건가격
+            int money = thing;//해당 물건 가격을 돈 계산 프로그램 알고리즘에넣기 위해 money라는 변수에 대입
+            
+            //money 입력받기 
+
+            int ex_500 = money / 500;//500원 짜리의 최대 개수
+            money = money % 500;//나머지는 금액으로 이동 
+            int ex_100 = money / 100;//위에서 남은 나머지 금액에서 나오는 100원짜리의 최대 갯수
+            money = money % 100;//나머지는 금액으로 이동 (아래방법 전부 동일)
+            int ex_50 = money / 50;//위와 동일
+            money = money % 50;
+            int ex_10 = money / 10;//위와 동일
+            money = money % 10;
+            int ex_5 = money / 5;//위와 동일
+            money = money % 5;
+
+            int ex_1 = money;//남은 돈은 반드시 1원 단위이므로 그대로 대입
+
+            Console.WriteLine("물거 가격 : {0}원 ", thing);
+            Console.WriteLine("===최적의 거스름돈===");
+            Console.WriteLine("500원 {0}개, 100원 {1}개, 50원 {2}개" +
+                "10원 {3}개, 5원 {4}개 1원 {5}개",ex_500,ex_100,ex_50,ex_10,
+                ex_5,ex_1);
+
+        }
+    }
+}
+
+
+반드시 cs파일로 저장할것 

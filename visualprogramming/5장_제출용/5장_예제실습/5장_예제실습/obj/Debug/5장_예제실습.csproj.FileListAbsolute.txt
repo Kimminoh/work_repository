@@ -1,0 +1,8 @@
+C:\Users\김민오\Desktop\visualprogramming\5장_제출용\5장_예제실습\5장_예제실습\bin\Debug\5장_예제실습.exe.config
+C:\Users\김민오\Desktop\visualprogramming\5장_제출용\5장_예제실습\5장_예제실습\bin\Debug\5장_예제실습.exe
+C:\Users\김민오\Desktop\visualprogramming\5장_제출용\5장_예제실습\5장_예제실습\bin\Debug\5장_예제실습.pdb
+C:\Users\김민오\Desktop\visualprogramming\5장_제출용\5장_예제실습\5장_예제실습\obj\Debug\5장_예제실습.csproj.AssemblyReference.cache
+C:\Users\김민오\Desktop\visualprogramming\5장_제출용\5장_예제실습\5장_예제실습\obj\Debug\5장_예제실습.csproj.SuggestedBindingRedirects.cache
+C:\Users\김민오\Desktop\visualprogramming\5장_제출용\5장_예제실습\5장_예제실습\obj\Debug\5장_예제실습.csproj.CoreCompileInputs.cache
+C:\Users\김민오\Desktop\visualprogramming\5장_제출용\5장_예제실습\5장_예제실습\obj\Debug\5장_예제실습.exe
+C:\Users\김민오\Desktop\visualprogramming\5장_제출용\5장_예제실습\5장_예제실습\obj\Debug\5장_예제실습.pdb

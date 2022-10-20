@@ -1,0 +1,6 @@
+C:\Users\김민오\Desktop\visualprogramming\DLL폴더(네임스페이스용도)\Shape\Shape\bin\Debug\Shape.dll
+C:\Users\김민오\Desktop\visualprogramming\DLL폴더(네임스페이스용도)\Shape\Shape\bin\Debug\Shape.pdb
+C:\Users\김민오\Desktop\visualprogramming\DLL폴더(네임스페이스용도)\Shape\Shape\obj\Debug\Shape.csproj.AssemblyReference.cache
+C:\Users\김민오\Desktop\visualprogramming\DLL폴더(네임스페이스용도)\Shape\Shape\obj\Debug\Shape.csproj.CoreCompileInputs.cache
+C:\Users\김민오\Desktop\visualprogramming\DLL폴더(네임스페이스용도)\Shape\Shape\obj\Debug\Shape.dll
+C:\Users\김민오\Desktop\visualprogramming\DLL폴더(네임스페이스용도)\Shape\Shape\obj\Debug\Shape.pdb

@@ -1,0 +1,3 @@
+﻿  소스.cpp
+C:\Users\김민오\Desktop\visualprogramming\Project3\Project3\소스.cpp(29,6): warning C4101: 'pro' :참조되지 않은 지역 변수입니다.
+  Project3.vcxproj -> C:\Users\김민오\Desktop\visualprogramming\Project3\x64\Debug\Project3.exe

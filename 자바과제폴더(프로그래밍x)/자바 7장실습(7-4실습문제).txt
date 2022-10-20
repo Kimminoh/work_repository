@@ -1,0 +1,48 @@
+120 122 125 130 139 160 169 173 175 179
+
+
+
+package ch7_genneric;
+import java.util.*;
+
+
+public class childrenheight81 {
+
+	public static void main(String[] args) {
+		Vector<Integer> child_height = new Vector<Integer>();//10년사이 이므로 10개의 벡터 생성 혹은 가변적이므로 놔둬도됨
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("2000년~ 2009년까지 1년 단위로 키(cm)로 입력");
+
+		//값 추가
+		for(int i=0;i<10;i++) {
+			int temp=sc.nextInt();
+			child_height.add(temp);
+		}
+
+		double max = 0;
+		int max_index=0;
+		int result=0;
+		
+		//값 비교하는 구간(차이를 비교해야함)
+		for(int i=0;i<9;i++) {
+			Integer obj = child_height.get(i);
+			int temp=obj.intValue();//인덱스값 하나씩 넘겨받기 
+			
+			Integer obj2=child_height.get(i+1);
+			int temp2=obj2.intValue();
+			
+			result=temp2-temp;
+			//result = 앞 년도 - 뒷년도 키 차이
+			//temp = 앞 년도 값  
+
+			if(result>max) {
+				max=result;
+				max_index=i;
+			}
+		
+		}	
+		System.out.println("가장 키가 많이 자란 년도는 "+(2000+max_index)+"년 "+max+" cm");
+
+	}
+}

@@ -1,0 +1,104 @@
+package ch4_class_instance;
+import java.util.Scanner;
+
+public class PhoneManager81 {
+	static int count=1;
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		boolean button=false; //while문 탈출 버튼
+		
+		
+		System.out.print("인원수>>");
+		int person=sc.nextInt(); //인원수를 카운트로받기
+		
+		Phone []pno = new Phone[person]; //person만큼의 객체 생성
+		
+		for(int i=0;i<person;i++) {
+			System.out.print("이름과 전화번호(번호는 연속적으로 입력)>>");
+			pno[i]=new Phone(sc.next(), sc.next(),count);
+			count=count+1;
+			//테스트코드
+			//System.out.println(pno[i].getname()+pno[i].gettel()+" "+pno[i].get_count());
+			
+		}
+		
+		System.out.println("저장되었습니다...");
+		//버퍼비우기
+		sc.nextLine();
+		
+		//검색부분
+	
+		while(true) {
+			if(button==true)
+				break;//exit입력 시
+			System.out.print("검색할 이름>>");
+			String search_name=sc.next();
+			
+			for(int i=0;i<person;i++) {
+				if(search_name.equals("exit")) {
+					button=true;
+					break;
+					
+				}
+				else if(search_name.equals(pno[i].getname())) {
+					System.out.println(pno[i].getname()+"의 번호는 "+pno[i].get_count()+"번이고 전화번호는"+pno[i].gettel()+"입니다");
+					break;
+				}
+				else if(!search_name.equals(pno[i].getname())&&i==(person-1)) {
+					//위의 식 뜻 : 검색어와 pno필드 검색하여 맞는것이 없고(and) i의 범위가 끝 범위까지 도달했을 때 
+					//왼쪽 식만 하면 안되는 이유 : 
+					
+					// 식의 뜻 : 마지막 값에서 거짓이라면? -> for문을 도는 중 마지막 값에 도달하면서 같은게 나오지않는다면 해당 조건문을 실행한다!!!!!!!!
+					
+					// 둘다 참이여야 해당 else if 문은 동작
+					// 왼쪽식: 문자가 단순히 서로 맞지않으면 참으로 변경
+					// 오른쪽 식 : 
+					System.out.println(search_name+"이 없습니다.");
+					break;
+				}
+			
+			}	
+			
+		}
+		System.out.println("프로그램을 종료합니다...");
+						
+			
+			/*
+			for(int i=0;i<pno.length;i++) {
+				if(search_name.equals("exit"))
+					break;
+				else if(search_name.equals(pno[i].getname())) {
+					System.out.println("번호는 "+pno[i].get_count()+"번이고 전화번호는"+pno[i].gettel()+"입니다");
+					continue;
+				}
+					
+				else if(!search_name.equals(pno[i].getname())) {
+					System.out.println("없는 이름입니다");
+					continue;
+				}
+				}
+			break;
+			
+			}
+			System.out.println("프로그램을 종료합니다...");
+		*/
+	}
+}
+	
+class Phone{
+	private String name, tel;
+	int count=0;
+	
+	public Phone(String name,String tel,int count) {
+		this.name=name;
+		this.tel=tel;
+		this.count=count;
+		//this.count=count+1;//출력 떈 +1해서!(시작이 0이므로)//생성될때마다 작동하므로!!!
+	}
+	public String getname() {return name;}
+	public String gettel() {return tel;}
+	public int get_count() {return count;}
+	
+	}
+	//public int get_count() {return count;} //해당코드로 count의 값을 넘겨줄 수 있음 

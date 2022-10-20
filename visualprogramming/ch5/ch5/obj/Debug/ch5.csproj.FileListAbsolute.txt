@@ -1,0 +1,8 @@
+C:\Users\김민오\Desktop\visualprogramming\ch5\ch5\bin\Debug\ch5.exe.config
+C:\Users\김민오\Desktop\visualprogramming\ch5\ch5\bin\Debug\ch5.exe
+C:\Users\김민오\Desktop\visualprogramming\ch5\ch5\bin\Debug\ch5.pdb
+C:\Users\김민오\Desktop\visualprogramming\ch5\ch5\obj\Debug\ch5.csproj.AssemblyReference.cache
+C:\Users\김민오\Desktop\visualprogramming\ch5\ch5\obj\Debug\ch5.csproj.SuggestedBindingRedirects.cache
+C:\Users\김민오\Desktop\visualprogramming\ch5\ch5\obj\Debug\ch5.csproj.CoreCompileInputs.cache
+C:\Users\김민오\Desktop\visualprogramming\ch5\ch5\obj\Debug\ch5.exe
+C:\Users\김민오\Desktop\visualprogramming\ch5\ch5\obj\Debug\ch5.pdb

@@ -1,0 +1,6 @@
+﻿  stack_op.cpp
+C:\Users\김민오\Desktop\visualprogramming\DS_2\DS_2\stack_op.cpp(7,4): warning C4200: 비표준 확장이 사용됨: 구조체/공용 구조체의 배열 크기가 0입니다.
+C:\Users\김민오\Desktop\visualprogramming\DS_2\DS_2\stack_op.cpp(7,4): message : 이 멤버는 기본값으로 설정된 생성자 또는 복사/이동 대입 연산자에서 무시됩니다.
+C:\Users\김민오\Desktop\visualprogramming\DS_2\DS_2\stack_op.cpp(53): message : 컴파일되는 클래스 템플릿 인스턴스화 'stack<char>'에 대한 참조를 확인하세요.
+MSVCRTD.lib(exe_main.obj) : error LNK2019: main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\김민오\Desktop\visualprogramming\DS_2\x64\Debug\DS_2.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

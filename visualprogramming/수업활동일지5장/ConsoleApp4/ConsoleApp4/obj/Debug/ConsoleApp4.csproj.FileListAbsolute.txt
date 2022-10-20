@@ -1,0 +1,8 @@
+C:\Users\김민오\Desktop\visualprogramming\수업활동일지5장\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+C:\Users\김민오\Desktop\visualprogramming\수업활동일지5장\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+C:\Users\김민오\Desktop\visualprogramming\수업활동일지5장\ConsoleApp4\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+C:\Users\김민오\Desktop\visualprogramming\수업활동일지5장\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.AssemblyReference.cache
+C:\Users\김민오\Desktop\visualprogramming\수업활동일지5장\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.SuggestedBindingRedirects.cache
+C:\Users\김민오\Desktop\visualprogramming\수업활동일지5장\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache
+C:\Users\김민오\Desktop\visualprogramming\수업활동일지5장\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+C:\Users\김민오\Desktop\visualprogramming\수업활동일지5장\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.pdb

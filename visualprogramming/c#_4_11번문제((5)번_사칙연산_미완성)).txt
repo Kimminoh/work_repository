@@ -1,0 +1,94 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp8
+{
+    //분수 클래스
+    class Fraction {
+        public int numerator;//분자
+        public int denominator;//분모
+
+       
+
+
+        //(1) 한 개의 정수를 받아 초기화하는 생성자
+        public Fraction(int numerator)
+        {
+            this.numerator = numerator;
+        }
+        //(2) 두 개의 정수를 받아 초기화 하는 생성자
+        public Fraction(int numerator, int denominator)
+        {
+            this.numerator = numerator;
+            this.denominator = denominator;
+        }
+        //(3) 하나의 분수를 분자/분모 형태로 변환하는 ToString()메소드 
+        override public string ToString()//public 과 override 위치는 바뀌어도 상관없다
+        {
+            return (numerator + "/" + denominator);
+            //return base.ToString(); 원래 해당 문구로 인해 오리지널 출력값이다. 여기서 우리가 override시키는 것이다!
+        }
+
+        //(4) 최대공약수를 구하는 메소드 & 기약 분수로 만드는 메소드 
+        //최대공약수-> 두 수 이상의 공통된 약수를 의미 
+        // 최대공약수 = 두수 곱한 것 / 최소 공배수 이므로 최소 공배수 구하는 메소드 작성
+        public int gcd(int num1, int num2)
+        {
+            int value;
+            int max = num1;// 큰수로 가정 max는 최대공약수를 담을 필드
+            int min = num2;// 작은 수로 가정 min은 최소 공배수를 담을 필드
+            int temp;       // 값을 계속 옮긴 임시 변수
+
+            while (true)
+            {
+                //(1)
+                temp = max % min;//큰 수에서 작은 수를 0이 될때까지 나누면 최소공배수
+                //이 때 0이라는 뜻은 딱 나누어 떨어졌다는 뜻!
+
+                //(2)
+                max = min; // 반복하기 위한 방법1
+                
+                //(pause-조건체크)
+                if (temp == 0)//0이 되었을 때의 탈출 조건
+                {
+                    break;
+                }
+                //(3) -> (1)로!
+                min = temp;// 해당 부분 배치 이유 : 0이 딱 되었을 때 min에 들어가는 값은 최소공배수인데 min=temp 시, min은 반드시 0이 됨
+
+            }
+            // 탈출했을 때의 min= 최대공약수
+            //max = (num1 * num2)/ min;
+
+            return min;
+        }
+
+        //기약분수 만드는 메소드-> 분자와 분모의 최대공약수로 나눈다면 구할 수 있다. 
+        public void reducedFraction(Fraction f)
+        {
+            
+            int gcd_value=gcd(f.numerator, f.denominator); //최대 공약수 구하기
+            f.numerator=f.numerator / gcd_value;            //그걸로 약분 하기~!
+            f.denominator = f.denominator / gcd_value;
+
+     
+        }
+    }
+
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Fraction num = new Fraction(12, 28);
+
+            int value;
+            value = num.gcd(12, 18);
+            num.reducedFraction(num);
+            Console.WriteLine(num);//Tostring정의로 인해 이렇게해도 출력가능 //기약분수 출력!`
+        }
+    }
+}
+

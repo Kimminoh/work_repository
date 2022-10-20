@@ -1,0 +1,2 @@
+﻿  sparase_matrix.cpp
+C:\Users\김민오\Desktop\visualprogramming\Project1\Project1\sparase_matrix.cpp(43,6): error C2466: 상수 크기 0의 배열을 할당할 수 없습니다.

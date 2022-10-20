@@ -1,0 +1,8 @@
+C:\Users\김민오\Desktop\visualprogramming\study_test\study_test\bin\Debug\study_test.exe.config
+C:\Users\김민오\Desktop\visualprogramming\study_test\study_test\bin\Debug\study_test.exe
+C:\Users\김민오\Desktop\visualprogramming\study_test\study_test\bin\Debug\study_test.pdb
+C:\Users\김민오\Desktop\visualprogramming\study_test\study_test\obj\Debug\study_test.csproj.AssemblyReference.cache
+C:\Users\김민오\Desktop\visualprogramming\study_test\study_test\obj\Debug\study_test.csproj.SuggestedBindingRedirects.cache
+C:\Users\김민오\Desktop\visualprogramming\study_test\study_test\obj\Debug\study_test.csproj.CoreCompileInputs.cache
+C:\Users\김민오\Desktop\visualprogramming\study_test\study_test\obj\Debug\study_test.exe
+C:\Users\김민오\Desktop\visualprogramming\study_test\study_test\obj\Debug\study_test.pdb
